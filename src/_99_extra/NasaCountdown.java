@@ -21,7 +21,7 @@ public class NasaCountdown {
 		// 3. Change the countdown to use the new starting point
 		int num = Integer.parseInt(number);
 		// 1. Print a countdown from 10 to 0 on the console
-		for (int i = 10; i > 0; i--) {
+		for (int i = num; i > 0; i--) {
 			System.out.println(i);
 			speak(""+i);
 		}
